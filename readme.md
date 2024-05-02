@@ -1,11 +1,25 @@
-Tweet sentiment analysis (AI Tinkerer Competition)
+# Tweet sentiment analysis (AI Tinkerer Competition)
 
-"Flan-T5 large" for text-to-text classification task.
-Dataset used: https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment
+### Applied two different approaches
 
-Accuracy: 91%
+1. "classification" approach
+Added a MLP head to T5 model for classification.
+
+Result: **90.7%** accuracy (at step 350)
+Weight and Bias training report: https://wandb.ai/minki-jung/t5_classification/reports/T5-classification-head--Vmlldzo3NzgwMDI2
+
+
+2. "text-to-text" approach
+Use text-to-text approach using a prefix. References this paper: https://arxiv.org/pdf/1910.10683v4
+
+Result: **90.662%** accuracy (at step 375)
 
 Weight and Bias training report: https://wandb.ai/minki-jung/flan-t5-large/reports/T5-tweet-sentiment-analysis--Vmlldzo3Nzc5ODM4
+
+
+
+Dataset used: https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment
+
 
 
 note
