@@ -19,7 +19,7 @@ print(f"Using device: {device}")
 
 nltk.download('punkt')
 
-os.environ["WANDB_API_KEY"] = "daaad7fb8ba9384c96345b028d3cdc4c9f5e79ce"
+os.environ["WANDB_API_KEY"] = ""
 os.environ["WANDB_LOG_MODEL"] = "true"
 os.environ["WANDB_WATCH"] = "false"
 
