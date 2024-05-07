@@ -12,7 +12,7 @@ Use text-to-text approach using a prefix. References this paper: https://arxiv.o
 
 Result: **90.662%** accuracy (at step 375)
 
-Weight and Bias training report: https://api.wandb.ai/links/minki-jung/ihrsvww4(https://api.wandb.ai/links/minki-jung/ihrsvww4) <br><br><br>
+Weight and Bias training report: https://api.wandb.ai/links/minki-jung/ihrsvww4 <br><br><br>
 
 Dataset used: https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment <br><br><br>
 
